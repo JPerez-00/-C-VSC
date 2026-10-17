@@ -1,0 +1,82 @@
+ public class Program
+
+{
+    static async Task Main(string[] args)
+    {
+string? nombre;
+
+Console.WriteLine("Para comenzar por favor  introduce tu nombre");
+
+nombre=Console.ReadLine();
+
+Console.WriteLine("Perfecto {0} ya podemos comenzar", nombre);
+
+string? novia;
+
+Console.WriteLine("Introduzca el nombre de su novia: ");
+
+novia=Console.ReadLine();
+
+Console.WriteLine("{1} Un nombre muy bonito {0}", nombre, novia);
+
+Console.WriteLine("Puntue del 1 al 10 como de guapa te parece: ");
+
+string? puntuacionTexto=Console.ReadLine(); 
+
+double puntuacion=double.Parse(puntuacionTexto!);
+
+Console.WriteLine("Buena nota, no me esperaba un {2}. Me alego mucho por ello {0} seguro que a {1} le gustaria saberlo", nombre, novia, puntuacion);
+    
+   Problemas.Tonterias();
+
+    }
+    
+}
+
+public class Problemas
+{
+    public static void Tonterias()
+    {
+    
+        Console.WriteLine("Venga va, dame dos numeros que te los sumo");
+
+        string? textoOperacion1=Console.ReadLine();
+        string? textoOperacion2=Console.ReadLine();
+
+        double operacion1=double.Parse(textoOperacion1!);
+        double operacion2=double.Parse(textoOperacion2!);
+
+        Console.WriteLine("No es muy dificil sumar {0} y {1}, pero te lo haré", operacion1, operacion2);
+
+        Console.WriteLine("La solucion es {0}", operacion1+operacion2);
+
+        Console.WriteLine("Vamos a probar con  algo mas dificil, dame 3 numeros y te los multiplico");
+
+        string? textoOperacion3=Console.ReadLine();
+        string? textoOperacion4=Console.ReadLine();
+        string? textoOperacion5=Console.ReadLine();
+
+        double operacion3=double.Parse(textoOperacion3!);
+        double operacion4=double.Parse(textoOperacion4!);
+        double operacion5=double.Parse(textoOperacion5!);
+
+        Console.WriteLine("Mmm... vale! El resultado es {0}", operacion3*operacion4*operacion5);
+
+        Console.WriteLine("Subamos el nivel, ahora te voy a dividir el resultado de antes entre el numero que me digas");
+
+        string? textoOperacion6=Console.ReadLine();
+
+        double operacion6=double.Parse(textoOperacion6!);
+
+        Console.WriteLine("Mmm... uf esta me a costado mas pero creo que es {0}", (operacion3*operacion4*operacion5)/operacion6);
+
+        if (operacion6.Equals(6))  //La operacion tiene que dar como resultado 6
+        {
+            Console.WriteLine("He entrado en el If");   //Si el resultado es 6 saltara este mensaje     
+        } else
+        {
+            Console.WriteLine("La respuesta no era 6, pringado");    //Si el resultado no es 6 saltara este mensaje
+        }
+
+    }
+}
