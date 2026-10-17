@@ -1,0 +1,30 @@
+//Ejercicio 1
+
+Console.WriteLine("¡Hola Mundo!");
+
+//Ejercicio 2
+
+Console.WriteLine("Bienvenido a mi primer programa");
+Console.Write("Escriba su nombre: ");
+Console.ReadLine();
+Console.Write("Ahora, escriba su apellido: ");
+Console.ReadLine();
+Console.WriteLine("Enhorabuena, has pasado el control, puede continuar.");
+
+//Ejercicio 3
+
+Console.WriteLine("Ya estas dentro del programa");
+Console.WriteLine("Dentro del programa tienes que seguir las siguientes normas:");
+Console.Write("Pulsa Enter para continuar...");
+Console.ReadLine();
+Console.WriteLine("Norma 1: Lo que pase dentro del programa se queda en el programa");
+Console.ReadLine();
+Console.WriteLine("Norma 2: Entrar todos los dias y registrarte");
+Console.ReadLine();
+Console.WriteLine("Norma 3: NUNCA, BAJO NINGUN CONCEPTO, PULSES ALT+F4; ¡JAMAAASSS!");
+Console.ReadLine();
+Console.Write("Te han quedado claras las normas? Contesta si o no: ");
+Console.ReadLine();
+Console.WriteLine("Genial! Te hayan quedado claro o no, me da igual. Puedes continuar...");
+
+//Comando: cd *carpeta del proyecto*, dotnet run (compila y ejecuta proyecto)
