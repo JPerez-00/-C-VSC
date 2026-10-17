@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web de Javier</title>
+</head>
+<body>
+
+    <h1> Mi primera web</h1>
+
+    <p>Esta es mi primera página web</p>
+
+    <p> En esta primera página iré practicando las etiquetas básicas de HTML</p>
+
+    <hr style="height: 20px; background-color: blue; border:none; width: 50%;">
+
+    <p> 
+        Este texto tiene muchos espacios <br>
+        y varios saltos de linea,<br>
+        el navegador lo ve como un solo párrafo.
+    
+    </p>
+    
+</body>
+</html>
