@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+ 
+    <h1 id="principio">Curso desarrollo web. Listas</h1>
+
+    Haz clic<a href="#final"> aquí</a> para ir al final
+
+    <p>En este curso aprenderemos los fundamentos para crear páginas web<br>
+    utilizando HTML, CSS y JavaScript</p>
+
+    <h2>Requisitos para seguir el <a href="estructura.html" target="_blank">curso</a></h2>
+
+    <ul style="list-style-type: circle">
+        <li>Tener instalado VSC</li>
+        <li>Disponer de navegador web</li>   
+        <li>Crear carpeta para guardar archivos</li>    
+        <li>Practicar los ejemplos de cada vídeo</li>
+    </ul>
+
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+    <p><br><br><br></p>
+
+    <h2>Ruta recomendada de <a href="https://www.pildorasinformaticas.es">aprendizaje</a></h2>
+
+    Haz clic <a href="#principio">aquí</a> para ir al pricipio
+
+    <ol type="I">
+        <li>Aprender la estructura básica de documento HTML</li>
+        <li>Practicar con etiquetas de texto</li>
+        <li>Crear vinculos</li>
+    <ul style="list-style-type:square"><li>Internos</li><li>Externos</li></ul>
+        <li>Insertar imágenes</li>
+        <li id="final">Aplicar estilos</li>
+    </ol>
+</body>
+</html>
